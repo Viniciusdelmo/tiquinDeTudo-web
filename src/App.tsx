@@ -1,12 +1,8 @@
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-
-//import Home from "./pages/home";
+import Home from "./pages/home";
 
 import Header from "./components/Header/Header";
-
-
 
 function App() {
   return (
@@ -14,7 +10,7 @@ function App() {
       <Header />
       <div className="App" style={{ flex: 1 }}>
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
         </Routes>
       </div>
     </BrowserRouter>
