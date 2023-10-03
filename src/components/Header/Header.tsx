@@ -31,7 +31,7 @@ const Header = () => {
       <div className="secondMenu">
         <nav>
           <ul>
-            <a href="/empty">
+            <a href="/checkout">
               <button>
                 <img src="/Header/shoppingCart.svg" alt="Carrinho de compras" />
               </button>
