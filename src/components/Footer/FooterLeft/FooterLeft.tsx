@@ -29,7 +29,7 @@ const FooterLeft = () => {
           </a>
         </div>
       </div>
-      <div id="reservedTerm">2023 all Right Reserved Term of use FAKESTORE</div>
+      <div id="reservedTerm">2023 all Right Reserved Term of use TIQUIN DE TUDO</div>
     </div>
   );
 };

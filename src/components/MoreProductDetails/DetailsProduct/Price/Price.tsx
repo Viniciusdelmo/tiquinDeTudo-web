@@ -1,3 +1,4 @@
+import DefaultButton from "../../../DefaultButton/DefaultButton";
 import "./styles.scss";
 
 const Price = ({title, subtitle, description}: any) => {
@@ -6,6 +7,7 @@ const Price = ({title, subtitle, description}: any) => {
       <h1>{title}</h1>
       <h2>{subtitle}</h2>
       <p>{'\u00A0'}{'\u00A0'}{description}</p>
+      <DefaultButton label={"Adicionar ao carrinho"} onClick={()=>{}}/>
       <button/>
       
     </div>

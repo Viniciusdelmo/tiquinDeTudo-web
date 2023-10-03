@@ -9,6 +9,7 @@ import Details from "./DetailsProduct/Details/Details";
 import requester from "../../services/api";
 import EmptyState from "../EmptyState/EmptyState";
 
+
 type ProductType = {
   id: number;
   image: string;

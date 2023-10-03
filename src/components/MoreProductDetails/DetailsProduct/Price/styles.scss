@@ -3,6 +3,9 @@
   border-top: solid 1px;
   border-bottom: solid 1px;
   padding: 7px 0px 56px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
 #price h1 {
@@ -32,4 +35,5 @@
   font-size: 18px;
   line-height: 27px;
   text-align: start;
+  margin-bottom: 36px;
 }
