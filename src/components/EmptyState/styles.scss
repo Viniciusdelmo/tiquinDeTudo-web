@@ -1,3 +1,5 @@
+@import '../../utils/variables.scss';
+
 .emptyStateContainer {
   display: flex;
   flex-direction: column;
@@ -15,7 +17,7 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 48px;
-  color: #802c6e;
+  color: $primaryColor-orange-1;
 }
 
 .emptyStateContainer p {
